@@ -41,31 +41,68 @@ body{
 }
 
 .menu{
-    list-style: none;
     font-family: cursive;
     font-size: 24px;
     z-index: 10;
-    top: 10px;
-    position:absolute;
-    right: 30px;
+    margin-top: 0px;
+    top: 0px;
+    position:fixed;
     cursor: pointer;
+    background-color: white;
+    width: 100%;
 }
 
 .link{
-    float: left;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 8px;
     padding-right: 8px;
     color: hotpink;
     font-weight: bolder;
+    display: inline;
+    font-size: 20px;
 }
 
 .link:hover{
     background-color: cyan;
+    font-size: 25px;
 }
 
 h1{
     font-size: 40px;
     font-family: 'Cinzel Decorative', cursive;
+}
+
+.article{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.article:hover{
+    color:blue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+#writings a{
+    text-decoration: underline !important;
+    color: blue;
+}
+
+#writings a:hover{
+    color: red;
+}
+
+#contact iframe{
+width: 80%;
+}
+
+.contact_1 h3{
+    display: inline;
 }
